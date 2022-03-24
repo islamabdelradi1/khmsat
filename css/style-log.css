@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: #ECEFF4;
+}
+nav{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+}
+.left{
+    display: flex;
+    align-items: center;
+    
+}
+.left img{
+    width: 150px;
+    margin-right:30px;
+
+}
+.left i{
+    color: black;
+    font-size: 25px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right .btn-rt{
+    margin-left: 20px;
+    border: 1px solid black;
+    padding: 4px 10px;
+    color: #000;
+    font-size: 15px;
+
+}
+.btn-rt span{
+   padding-right: 10px;
+}
+.log{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    width: 700px;
+    height: 750px;
+    margin-top: 60px;
+    margin-right: 600px;
+}
+.log h2{
+position: absolute;
+margin-right: 50px;
+margin-top: 50px;
+font-weight: 400;
+
+}
+
+.log .logby{
+    position: absolute;
+    top: 150px;
+}
+.fa-google{
+    position: absolute;
+    right: 52px;
+    background-color: #DD4B39;
+    padding: 20px 70px;
+    color: white;
+}
+.fa-windows{
+    position: absolute;
+    right: 306px;
+    background-color: #0F4BAC;
+    padding: 20px 44px;
+    color: white;
+    margin-right: 50px;
+}
+.log span{
+    margin-right: 10px;
+}
+
+.at{
+    position: relative;
+border-top: 1px solid black;
+margin-top: 250px;
+}
+.at p{
+    position: absolute;
+    background-color: white;
+    width: 20px;
+    left: 350px;
+    bottom: -8px;
+}
+form .la1{
+    position: absolute;
+    margin: 40px 0;
+    right: 60px;
+}
+.em{
+    margin-top: 80px;
+    border: 1px solid black;
+    background-color: #F7F9FC;
+    padding: 10px 18px 10px 407px;
+    margin-left: 13px;
+
+}
+.em:focus{
+    outline: none;
+}
+.ps{
+    margin-top: 60px;
+    border: 1px solid black;
+    background-color: #F7F9FC;
+    padding: 10px 18px 10px 407px;
+    margin-left: 13px;
+}
+.ps:focus{
+    outline: none;
+}
+form .la2{
+    position: absolute;
+    margin: 40px 0;
+    right: 60px;
+    top: 350px;
+
+}
+.login{
+    position: absolute;
+    text-decoration: none;
+    background-color: #4CB7E6;
+    color: white;
+    padding: 7px 59px;
+    left: 485px;
+    top: 500px;
+}
+.ppn{
+    position: absolute;
+    top: 553px;
+    right: 68px;
+}
+.p1{
+    margin-left: 253px;
+    font-size: 20px;
+}
+.p3{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.p3 a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;
+}

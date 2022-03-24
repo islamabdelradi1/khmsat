@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: #F1F1F1;
+}
+aside{
+    background-color: white;
+    height: 100vh;
+    width:280px;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 1px 1px black;
+    display: none; 
+}
+.menuoo input{
+border:none;
+padding: 15px 14px 15px 122px;
+margin-top: 60px;
+} 
+.menuoo input:focus{
+    outline: none;
+}
+.menuoo a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: -8px;
+    padding: 7px 20px 10px 0px;
+
+}
+.menuoo a:hover{
+    background-color: #F1F1F1;
+    color:#52B035 ;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #444444;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.left{
+display: flex;
+align-items: center;
+}
+.left a:hover{
+    background-color: #888888;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 16px 15px 15px;
+}
+.left img{
+    width: 150px;
+    margin: 10px 30px;
+}
+.tasnef{
+    display: flex;
+    color: white;
+}
+.tasnef a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.tasnef i{
+    margin-left: 10px;
+}
+.right a{
+text-decoration: none;
+color: white;
+margin-right:20px;
+font-size: 15px;
+}
+.icon1{
+    padding: 16px 20px 15px;
+}
+.right a:hover{
+    background-color: #888888;
+}
+.btn-rt{
+border: 1px solid #ddd;    
+padding: 5px 10px;
+}
+.btn-rt span{
+    margin-right: 10px;
+    font-weight: 300;
+}
+.slider{
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg");
+    background-repeat: no-repeat;
+    background-position: center 48%;
+    background-size: cover;
+    height: 470px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.slider h1{
+    font-size: 35px;
+    margin: 20px 0;
+    font-weight: 400;
+}
+.slider p{
+    font-size: 20px;
+}
+.slider a{
+    position: relative;
+    background-color: #52B035;
+    padding: 10px 30px; 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    top: 56px;
+    left: 10px;
+}
+section{
+    width: 100%;
+    margin: auto;
+}
+
+section h2{
+    text-align: center;
+    margin: 70px 0;
+    font-weight: 400;
+}
+.imgs{
+display: flex;
+justify-content: center;
+margin: 30px;
+flex-wrap: wrap;
+
+}
+.imgs p{
+    display: flex;
+    position: relative;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    height:260px;
+    width: 350px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.imgs img{
+    position:absolute ;
+    margin: 10px;
+    height:260px;
+    width: 350px;    
+} 
+
+.silder22{
+    background-image: url("https://khamsat.hsoubcdn.com/assets/images/pattern-faff445a237e662f4efc1f4ef1b3bdb8fe84158095c82e35def103e872714835.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+}
+.silder22 h2{
+    color: white;
+    padding-top: 110px;
+}
+.search{
+    position: relative;
+}
+.sermam{
+    display: flex;
+    justify-content: center;
+}
+.sermam input{
+    border: none;
+    padding: 15px 49px 15px 437px;
+    font-size: 20px;
+}
+.sermam input:focus{
+    outline: none;
+}
+.sermam .fa-searchengin{
+    position: absolute;
+    font-size: 30px;
+    color: #444444;
+    left: 1248px;
+    margin: 20px 10px;
+}
+.sermam .btn-clik{
+    position: absolute;
+    background-color: #52B035;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    right: 1189px;
+    margin: 10px 0;
+}
+.selloll{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px;
+    align-items: center;
+}
+.selloll a{
+    text-decoration: none;
+    border: 1px solid #52B035;
+    padding: 10px;
+    font-size: 13px;
+    color: #52B035;
+}
+.selloll a:hover{
+    color: white;
+    background-color: #52B035;
+}
+.imgs2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 250px 0px;
+    position: relative;
+}
+.div11{
+    width: 300px;
+    margin: 10px;
+}
+.div22{
+    width: 300px;
+    margin: 10px;
+
+}
+
+.div33{
+    width: 300px;
+    margin: 10px;
+
+}
+
+.div44{
+    width: 300px;
+    margin: 10px;
+
+}
+
+.div55{
+    width: 300px;
+    margin: 10px;
+
+}
+
+.div66{
+    width: 300px;
+    margin: 10px;
+
+}
+
+.div77{
+    width: 300px;
+    margin: 10px;
+
+}
+
+.div88{
+    width: 300px;
+    margin: 10px;
+
+}
+.div11 a{
+    text-decoration: none;
+    color: black;
+}
+
+.div22 a{
+    text-decoration: none;
+    color: black;
+}
+.div33 a{
+    text-decoration: none;
+    color: black;
+}
+.div44 a{
+    text-decoration: none;
+    color: black;
+}
+.p1{
+    font-size: 15px;
+}
+.p11{
+    font-size: 10px;
+}
+.p1:hover{
+    color: #52B035;
+}
+.p111{
+    font-size: 15px;
+}
+
+.star{
+    color: #FA9747;
+    font-size: 15px;
+}
+.p111 span{
+    font-weight: bold;
+    font-size: 15px;
+}
+.footerall{
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    padding: 12px 312px;
+    margin-top: 50px;
+    height: 60px;
+    width: 100%;
+}
+.footer1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.footer1 a:hover{
+    color: #52B035;
+}
+.footer-bottom{
+    width: 100%;
+}
+.footer-bottom img{
+width:200px;
+margin: 40px 830px;
+}
+
+.footer-bottom2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fox img{
+padding: 0 47px 0 50px;
+}
+
+
+.fox p{
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+.fox a{
+    text-decoration: none;
+}
